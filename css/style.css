@@ -1,7 +1,16 @@
 @charset "utf-8";
 
 :root {
-    --main-color-1: #eee;
+    --color-baige: #fff9f2;
+    --color-mc: #5c584f;
+    --color-pc: #da2128;
+    --color-bk: #000;
+    --color-df: #212121;
+    --color-ct: #ccc;
+    --color-cl: #eee;
+    --color-ly: #f1e9df;
+    --color-lg: #f3f3f3;
+    --color-wt: #ffffff;
 }
 
 .container {
@@ -14,12 +23,24 @@
 
 /* header */
 
-/* visual */
 
-/* sec1st */
+/* main */
+
+
+/* section1 */
+
+
+/* section2 */
+
+
+
+/* section3 */
+
+
+/* section4 */
+
+
+/* section5 */
+
 
 /* footer */
-
-
-
-/* media */
