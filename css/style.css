@@ -2,68 +2,95 @@
 
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp.min.css");
 
-
 :root {
-    --color-baige: #fff9f2;
-    --color-mc: #5c584f;
-    --color-pc: #da2128;
-    --color-bk: #000;
-    --color-df: #212121;
-    --color-ct: #ccc;
-    --color-cl: #eee;
-    --color-ly: #f1e9df;
-    --color-lg: #f3f3f3;
-    --color-wt: #ffffff;
-    font-family: Pretendard, apple-system, 'Apple SD Gothic Neo', '맑은 고딕', sans-serif;
-    font-size: 18px;
+  --color-baige: #fff9f2;
+  --color-mc: #5c584f;
+  --color-pc: #da2128;
+  --color-bk: #000;
+  --color-df: #212121;
+  --color-ct: #ccc;
+  --color-cl: #eee;
+  --color-ly: #f1e9df;
+  --color-lg: #f3f3f3;
+  --color-wt: #ffffff;
+  font-family: Pretendard, apple-system, "Apple SD Gothic Neo", "맑은 고딕",
+    sans-serif;
+  font-size: 18px;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 /* font */
 
 .font-title {
-    font-size: 39.52px;
-    font-weight: 600;
+  font-size: 39.52px;
+  font-weight: 600;
 }
 
+.font-menu {
+  font-size: 18px;
+  font-weight: 700;
+}
 .font-sec1 {
-    font-size: 19.76px;
-    font-weight: 600;
+  font-size: 19.76px;
+  font-weight: 600;
 }
 
 .font-sec3 {
-    font-size: 12.616px;
-    font-weight: 600;
+  font-size: 12.616px;
+  font-weight: 600;
 }
-
 
 .container {
-    width: 1300px;
-    margin: 0 auto;
-    position: relative;
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
 }
 
-
-
 /* header */
+nav {
+  background: rgba(255, 255, 255, 0.4);
+}
 
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+  width: 160px;
+  height: 40px;
+  border: 2px solid #1c1d1d;
+  border-radius: 100px;
+  box-sizing: border-box;
+  > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+  }
+}
 
 /* main */
 
-
 /* section1 */
-
 
 /* section2 */
 
-
-
 /* section3 */
-
 
 /* section4 */
 
-
 /* section5 */
-
 
 /* footer */
