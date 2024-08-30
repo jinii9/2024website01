@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp.min.css");
+
+
 :root {
     --color-baige: #fff9f2;
     --color-mc: #5c584f;
@@ -11,7 +14,27 @@
     --color-ly: #f1e9df;
     --color-lg: #f3f3f3;
     --color-wt: #ffffff;
+    font-family: Pretendard, apple-system, 'Apple SD Gothic Neo', '맑은 고딕', sans-serif;
+    font-size: 18px;
 }
+
+/* font */
+
+.font-title {
+    font-size: 39.52px;
+    font-weight: 600;
+}
+
+.font-sec1 {
+    font-size: 19.76px;
+    font-weight: 600;
+}
+
+.font-sec3 {
+    font-size: 12.616px;
+    font-weight: 600;
+}
+
 
 .container {
     width: 1300px;
