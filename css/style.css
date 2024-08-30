@@ -52,6 +52,11 @@ a:visited {
   font-weight: 600;
 }
 
+.font-footer {
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .container {
   width: 1300px;
   margin: 0 auto;
@@ -82,9 +87,8 @@ nav {
 }
 
 .main {
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px;
   width: 100vw;
-  height: 100vh;
   background-color: #ede5da;
   > img {
     width: 100%;
@@ -105,3 +109,16 @@ nav {
 /* section5 */
 
 /* footer */
+.ft .container {
+  color: #909090;
+}
+.ft .container h4 {
+  color: white;
+}
+.ft .container p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.link-groups a {
+  font-size: 16px;
+}
