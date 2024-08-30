@@ -101,8 +101,37 @@ nav {
 /* section1 */
 
 /* section2 */
+.youtube-wrap{
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.youtube-wrap iframe {
+  position: absolute;
+  border-radius: 50px;
+}
 
 /* section3 */
+.swiper-slide > a > img {
+    width: 277.77px;
+    height: 441px;
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: none;
+}
+
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+.element.style {
+    width: 233.25px;
+    transition-duration: 0ms;
+    transform: none;
+    z-index: -1;
+}
 
 /* section4 */
 
