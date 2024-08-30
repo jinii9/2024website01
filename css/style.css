@@ -86,6 +86,16 @@ nav {
 /* section1 */
 
 /* section2 */
+.youtube-wrap{
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.youtube-wrap iframe {
+  position: absolute;
+  border-radius: 50px;
+}
 
 /* section3 */
 .swiper-slide > a > img {
