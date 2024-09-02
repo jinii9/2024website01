@@ -23,7 +23,7 @@
 }
 
 body {
-    background-color: var(--color-baige);
+    background-image: linear-gradient(to bottom, var(--color-baige) 50%, #212529 50%);
 }
 
 ul,
@@ -37,6 +37,12 @@ a:link,
 a:visited {
     text-decoration: none;
     color: black;
+}
+
+/* section-wrap */
+.section-wrap {
+    background-image: url(../images/bg_body.png);
+    z-index: 1000;
 }
 
 /* font */
