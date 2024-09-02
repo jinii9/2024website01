@@ -209,17 +209,12 @@ nav {
     line-height: 16.8px;
 }
 
-/* section2 */
-.youtube-wrap {
-    position: relative;
-    margin: 0 auto;
-    width: 80%;
-}
+/* 메인 video */
+.main_video {width:100%;max-width:1120px;margin:0 auto;}
+.main_video .video_wrap {overflow:hidden;position:relative;width:100%;height:0;margin:0 auto;padding-top:56.2%;border-radius:35px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.05);transform:translate3d(0, 15px, 0)}
+.main_video .video_wrap .video {position:absolute;top:0;left:0;width:100%;height:100%;border-radius:20px;object-fit:cover}
+.main_cont.scr .video_wrap {transform:translate3d(0, 0, 0);transition:transform .7s cubic-bezier(.25, .5, .75, 1);}
 
-.youtube-wrap iframe {
-    position: absolute;
-    border-radius: 50px;
-}
 
 /* section3 */
 .swiper-slide>a>img {
