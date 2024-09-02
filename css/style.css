@@ -346,3 +346,10 @@ nav {
 .panel-item:hover {
     background-color: black;
 }
+
+/* 아이콘 */
+.ft .row li i {
+    /* padding: 4rem; */
+    /* padding: 1rem 1rem 0 0; */
+    font-size: 2rem;
+}
