@@ -26,7 +26,7 @@
 
 <body>
   <!-- header/ -->
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top px-5">
     <div class="container-fluid px-4 bg-none">
       <a class="navbar-brand" href="#">
         <img src="https://www.shinsegaefood.com/images/web/common/logo_b_277.png" alt="로고" /></a>
@@ -34,15 +34,21 @@
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active font-menu" aria-current="page" href="#">COMPANY</a>
-          <a class="nav-link font-menu" href="#">BUSINESS</a>
-          <a class="nav-link font-menu" href="#">ESG</a>
-          <a class="nav-link font-menu" href="#">고객지원</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup w-100">
+        <div class="navbar-nav d-flex flex-row gap-5 w-100 ps-5">
+          <a class="nav-link active font-menu text-center"
+           aria-current="page" href="#">COMPANY</a>
+          <a class="nav-link active font-menu text-center"
+          href="#">BUSINESS</a>
+          <a class="nav-link active font-menu text-center"
+           href="#">ESG</a>
+          <a class="nav-link active font-menu text-center"
+          href="#">고객지원</a>
+                    <a class="nav-link active font-menu text-center"
+          href="#">채용</a>
         </div>
       </div>
-      <div class="search d-none d-lg-flex">
+      <div class="search d-none d-xl-flex">
         <input type="search" />
         <button class="btn border-none bg-none">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -393,7 +399,7 @@
         </li>
       </ul>
     </div>
-    
+
   <!-- footer -->
   <footer class="ft text-white py-5">
     <div class="container d-flex flex-column flex-lg-row justify-content-between">
