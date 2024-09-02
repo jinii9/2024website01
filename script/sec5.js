@@ -1,5 +1,5 @@
-var mySwiper = new Swiper(".sec1-swiper", {
-  slidesPerView: 5.5, // 한 번에 표시할 슬라이드 수
+var mySwiper = new Swiper(".sec5-swiper", {
+  slidesPerView: 4.5, // 한 번에 표시할 슬라이드 수
   spaceBetween: 18, // 슬라이드 간의 간격
 
   loop: true, // 슬라이드 루프(무한 회전) 활성화
